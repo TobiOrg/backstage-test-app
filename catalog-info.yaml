@@ -1,13 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
-  description: |
-    Backstage is an open-source developer portal that puts the developer experience first. This is a distribution generated for learning and experimenting
+  name: backstage-lab
+  description: Our main Backstage Demo Repository
   annotations:
-    github.com/project-slug: on-clouds/backstage 
-    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: TobiOrg/backstage-test-app
 spec:
   type: service
-  owner: platform-team
   lifecycle: experimental
+  owner: Backstage Users
